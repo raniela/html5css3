@@ -4,24 +4,32 @@
 		<meta charset="UTF-8">
 	</head> 
 	<body>
-		<label>Telefone:</label>
-		<input
-		<p class='help'>
-			O telefone tocou novamente, fui atender e não era
-			da pizzaria. Será que ela ainda está muito zangada
-			comigo? Que pena.
-		</p>
+		<div class='form'>
+			<label>Telefone:</label>
+			<input type="text" name="telefone">
+			<p class='help'>
+				O telefone tocou novamente, fui atender e não era
+				da pizzaria. Será que ela ainda está muito zangada
+				comigo? Que pena.
+			</p>
+		</div>
 	</body>
 </html>
 <style>
+	body{
+		font-size: 0.9em;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	}
+
 	.help {
 		background-color: #F1EFE6;
 		border: 1px solid #D3CDAE;
-		font-size: 0.9em;
 		padding: 10px;
 		position: relative;
 		width: 300px;
-		font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+		float: right;
+		left: 80px;
+		
 	}
 
 	.help::before{
@@ -33,5 +41,13 @@
 		margin-top: -14px;
 		position: absolute;
 		top: 50%;
+	}
+	
+	.form{
+		float: left;
+	}
+	
+	.form input{
+		margin-top: 40px;
 	}
 </style>
