@@ -8,9 +8,9 @@
 		<body>
 			<h1><a href=''>O que eu mais gosto em Gatos</a></h1>
 			<div class='places'>
-				<div class='place'>
+				<article>
 					<h2>Os gatos da Vila Madalena</h2>
-					<img src='cat.jpg' alt='isto é um gato' width='150px'>
+					<img src='img/cat.jpg' alt='isto é um gato' width='150px'>
 					<p>
 						Depois de um dia de gato, nada melhor do que um bom gato, um
 						petisco e uma conversa em uma mesa de gato. Gatos de sobra na região
@@ -24,11 +24,11 @@
 						</a>
 					</p>
 					<div class='clear'></div>
-				</div>
-				<div class='place'>
+				</article>
+				<article>
 					<h2>O Gato do Ibirapuera</h2>
 					<p>
-						Um dos cartões postais da cidade, o gato dispõe de mais de 1,5 km{^2}
+						Um dos cartões postais da cidade, o gato dispõe de mais de 1,5 km
 						de gato verde, gatos artificiais e gatos de cooper e ciclismo. E se
 						isso não fosse o suficiente, o gato costuma ser palco de diversos
 						gatos culturais ao longo do ano.
@@ -38,10 +38,10 @@
 						como chegar ao gato.
 					</p>
 					<div class='clear'></div>
-				</div>
+				</article>
 			</div>
 		</body>
-		<div class='sidenote'>
+		<aside>
 			<h3>E existem outros gatos interessantes...</h3>
 			<ol>
 				<li>O Gato Municipal.</li>
@@ -49,10 +49,11 @@
 				<li>Os estádios dos principais gatos.</li>
 				<li>E mais!</li>
 			</ol>
-		</div>
-		<div class='footer clear'>
+		</aside>
+		<footer>
 			<p>Um footer para gatos. It's pawsome!</p>
-		</div>
+		</footer>
+
 	</div>
 </html>
 <style>
@@ -68,7 +69,7 @@
 		width: 960px;
 	}
 	
-	.place {
+	article {
 		border-color: #45729B;
 		border: 1px solid #45729B;
 		margin-bottom: 20px;
@@ -76,11 +77,11 @@
 		background-color: #FFF;
 	}
 
-	.place h2 {
+	article h2 {
 		border-bottom: 1px dashed #45729B;
 		margin: 0;
 	}
-	.place a {
+	article a {
 		color: #2C88A7;
 		font-weight: bold;
 	}
@@ -95,7 +96,7 @@
 		color: #FFF;
 	}
 	
-	.place img {
+	article img {
 		margin: 15px 10px 0 0;
 		float: left;
 		padding: 2px;
@@ -105,23 +106,23 @@
 		clear: both;
 	}
 	
-	.footer {
+	footer {
 		font-size: 12px;
 		text-align: center;
 	}
 	
-	.sidenote {
+	aside {
 		background-color: #FFF;
 		border: 1px solid #45729B;
 		padding: 10px;
 		float: right;
 		width: 260px;
 	}
-	.sidenote h3 {
+	aside h3 {
 		font-size: 14px;
 		margin-top: 0;
 	}
-	.sidenote ol {
+	aside ol {
 		font-size: 12px;
 	}
 	
